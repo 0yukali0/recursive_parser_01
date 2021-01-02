@@ -267,9 +267,6 @@ func Stmts() {
 		return
 	default:
 		fmt.Printf("Error(Stmts vs. %s)\n", userterminal)
-		if userterminal == "$" {
-			fmt.Println("same")
-		}
 		errout = true
 	}
 }
